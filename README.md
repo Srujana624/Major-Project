@@ -1,4 +1,4 @@
-# 🚦 Explainable AI for Traffic Violation Detection and Risk Scoring
+# 🚦 Explainable AI for Traffic Violation Detection and Risks Scoring
 
 ## 📌 Project Overview
 
