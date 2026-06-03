@@ -56,6 +56,7 @@ Flask-CORS
 AI & XAI Techniques
 Convolutional Neural Networks (CNN)
 Grad-CAM (Gradient-weighted Class Activation Mapping)
+
 📂 Project Structure
 Explainable-AI-Traffic-Violation-Detection/
 │
@@ -69,15 +70,18 @@ Explainable-AI-Traffic-Violation-Detection/
 ├── frames/                     # Extracted Frames
 ├── dataset/                    # Training Dataset
 └── README.md
+
 ⚙️ Features
 🚗 Traffic Violation Detection
 Detects violations from traffic video footage.
 CNN-based classification model.
 Supports multiple violation categories.
+
 🔍 Explainable AI (Grad-CAM)
 Generates heatmaps highlighting important image regions.
 Improves model transparency and trustworthiness.
 Helps authorities understand why a violation was detected.
+
 📊 Driver Risk Scoring
 
 Risk scores are assigned based on violation frequency.
@@ -86,14 +90,17 @@ Score Range	Risk Level
 0 - 10	Low Risk
 20 - 29	Medium Risk
 30+	High Risk
+
 🌐 REST APIs
 Add traffic violations
 Retrieve violations
 Calculate driver risk score
+
 📈 Data Visualization
 Violation distribution charts
 Traffic analytics dashboards
 Risk analysis reports
+
 🔄 Workflow
 Step 1: Video Preprocessing
 
@@ -132,6 +139,7 @@ Linux/Mac:
 source venv/bin/activate
 Install Dependencies
 pip install -r requirements.txt
+
 ▶️ Running the Project
 Start Flask Backend
 python app.py
